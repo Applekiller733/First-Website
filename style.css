@@ -1,0 +1,219 @@
+html{
+   scroll-behavior: smooth;
+}
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.homebut{
+    text-align:left;
+    
+}
+.header{
+    min-height:100vh;
+    width=100%;
+    background-image: url(images/Berlindownfall.jpg);
+    background-position:center;
+    background-size:cover;
+    position:relative;
+}
+nav{
+    display:flex;
+    padding:2% 6%;
+    justify-content: space-between;
+    align-items:center;
+}
+nav img{
+    width:150px;
+    
+}
+.nav-links{
+    flex:1;
+    text-align: right;
+    
+}
+.nav-links ul li{
+    list-style:none;
+    display:inline-block;
+    padding:8px 12px;
+    position:relative;
+}
+.nav-links ul li a{
+    color:#fff;
+    text-decoration:none;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition:0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.text-box{
+    width:90%;
+    color:#fff;
+    position:absolute;
+    top:80%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box2{
+    width:90%;
+    color:#fff;
+    position:relative;
+    text-align: center;
+    background:rgba(30, 30, 30, 0.25);
+}
+.text-box h1{
+    text-align:left;
+    font-size:58px;
+}
+.text-box p{
+    margin:10px 0 40px;
+    font-size:14px;
+    color:#fff;
+}
+
+nav .fa{
+    display:none;
+}
+.box{
+    display:block;
+    background-color:lightgrey;
+    padding:12px;
+}
+
+/*Introducere*/
+.Introducere{
+    min-height:100vh;
+    background-image:url(images/mapaxis.jpg);
+    background-position:center;
+    background-size:cover;
+    position:relative;
+    width=100%;
+    margin:auto;
+    text-align:center;
+    
+}
+h1{
+    color:#fff;
+    font-size:36px;
+    font-weight:600;
+}
+
+.row{
+    display:flex;
+    margin-top:5%;
+    display:flex;
+    place-content: center;
+    flex-direction:column;
+    flex-wrap:wrap;
+}
+
+h3{
+    text-align:center;
+    position: relative;
+    font-weight:600;
+    margin:10px;
+}
+.text{
+    font-size:16px;
+    color:white;
+    
+}
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+    display:flex;
+    flex-direction:column;
+    margin-left:200px;
+    margin-right:200px;
+  background:transparent;
+  color: #fff;
+  cursor: pointer;
+  padding: 18px;
+  width: 30%;
+  border:0px solid;
+    border-color: white;
+    
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+    
+    display:flex;
+    flex-direction:column;
+  padding: 0px 18px 10px;
+  background:transparent;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+    margin-left:200px;
+    margin-right:200px;
+    color:#fff;
+}
+.centerimage{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width=50%;
+    
+}
+/*Blitzkrieg*/
+.Blitzkrieg{
+    min-height:100vh;
+     background-image:url(images/Blitzkrieg.jpeg);
+    background-position:center;
+    background-size:cover;
+    position:relative;
+    width=100%;
+    margin:auto;
+    text-align:center;
+}
+/*Eastern Front*/
+.Eastfront{
+    min-height:100vh;
+     background-image:url(images/ww2german%20trench.jpg);
+    background-position:center;
+    background-size:cover;
+    position:relative;
+    width=100%;
+    margin:auto;
+    text-align:center;
+}
+/*Downfall*/
+.Downfall{
+    min-height:100vh;
+     background-image:url(images/berlin%20red%20army.jpg);
+    background-position:center;
+    background-size:cover;
+    position:relative;
+    width=100%;
+    margin:auto;
+    text-align:center;
+}
+/*Impact*/
+.Impact{
+    min-height:100vh;
+     background-image:url(images/militarycemetery.jpg);
+    background-position:center;
+    background-size:cover;
+    position:relative;
+    width=100%;
+    margin:auto;
+    text-align:center;
+}
